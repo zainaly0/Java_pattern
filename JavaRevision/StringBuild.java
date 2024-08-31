@@ -2,6 +2,7 @@ package JavaRevision;
 
 public class StringBuild {
     public static void main(String[] args) {
+       /**
        
         // String name = "zaid";
         // System.out.println(name.concat("mullah"));
@@ -30,6 +31,19 @@ public class StringBuild {
         // append in string last 
         sb.append("H");
         System.out.println(sb);
+ */
 
+        String fullname = "mullah";
+        StringBuffer revFullname = new StringBuffer();
+
+
+        int len = fullname.length();
+        for(int a = 0; a<=len-1; a++){
+            char ch = fullname.charAt(len-a-1);
+            
+            revFullname.append(ch);
+        }
+
+        System.out.println(revFullname);
     }
 }
