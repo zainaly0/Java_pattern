@@ -2,6 +2,8 @@ package Sorting;
 
 public class BubbleSortTwo {
     public static void main(String[] args) {
+        //TIME COMPLEXITY = O(n^2)
+
         int[] arr=  {7, 8, 3, 1, 2};
 
         // FIRST WAY
