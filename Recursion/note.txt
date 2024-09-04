@@ -1,0 +1,6 @@
+Recursion and iteration are two different approaches to solving problems that require repetition
+
+iteration / loop
+functions 
+
+both are used for iteration 
