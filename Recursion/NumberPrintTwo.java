@@ -6,7 +6,7 @@ public class NumberPrintTwo {
             return;
         }
         System.out.println(num);
-        printNum(num+1);
+        printNum(++num);
         
     }
 
