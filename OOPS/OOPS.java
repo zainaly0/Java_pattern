@@ -25,7 +25,7 @@ class Student{
 
 public class OOPS {
     public static void main(String[] args){
-        Pen pen1 = new Pen();
+       /**Pen pen1 = new Pen();
         pen1.color = "blue";
         pen1.type = "gel";
 
@@ -36,6 +36,14 @@ public class OOPS {
         pen2.color = "red";
         pen2.type = "well";
         pen2.printCOlor();
+
+         */ 
+
+
+         Student s1 = new Student();
+         s1.name = "mullah";
+         s1.age = 23;
+         s1.printInfo();
 
     }
 }
