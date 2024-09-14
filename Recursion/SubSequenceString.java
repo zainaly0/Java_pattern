@@ -15,7 +15,7 @@ public class SubSequenceString {
     }
 
     public static void main(String[] args) {
-        String str = "abc";
+        String str = "aac";
         subSequence(str, 0, "");
     }
 }
