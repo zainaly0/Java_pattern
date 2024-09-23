@@ -1,3 +1,4 @@
+package SquarePattern;
 public class StarSquare {
     public static void main(String[] args){
         int n = 5;

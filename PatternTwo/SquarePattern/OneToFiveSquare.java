@@ -1,3 +1,4 @@
+package SquarePattern;
 public class OneToFiveSquare {
     public static void main(String[] args) {
         int n = 5;
