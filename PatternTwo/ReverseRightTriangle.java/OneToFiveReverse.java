@@ -5,7 +5,7 @@ public class OneToFiveReverse {
         int n = 5;
         int m = 5;
         for(int a = 0; a<n; a++){
-            for(int b = n-a; b>0; b--){
+            for(int b = 1; b<=m-a; b++){
                 System.out.print(b);
             }
 
